@@ -19,7 +19,17 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
-    $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk
+    $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk \
+    $(LOCAL_DIR)/oneplus9r/aospa_oneplus9r.mk \
+    $(LOCAL_DIR)/oriole/aospa_oriole.mk \
+    $(LOCAL_DIR)/panther/aospa_panther.mk \
+    $(LOCAL_DIR)/phoenix/aospa_phoenix.mk \
+    $(LOCAL_DIR)/phone1/aospa_phone1.mk \
+    $(LOCAL_DIR)/raven/aospa_raven.mk \
+    $(LOCAL_DIR)/spes/aospa_spes.mk \
+    $(LOCAL_DIR)/sunny/aospa_sunny.mk \
+    $(LOCAL_DIR)/veux/aospa_veux.mk \
+    $(LOCAL_DIR)/vayu/aospa_vayu.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
@@ -28,4 +38,14 @@ COMMON_LUNCH_CHOICES += \
     aospa_lmi-userdebug \
     aospa_mini5g-userdebug \
     aospa_oneplus9-userdebug \
-    aospa_oneplus9pro-userdebug
+    aospa_oneplus9pro-userdebug \
+    aospa_oneplus9r-userdebug \
+    aospa_oriole-userdebug \
+    aospa_panther-userdebug \
+    aospa_phoenix-userdebug \
+    aospa_phone1-userdebug \
+    aospa_raven-userdebug \
+    aospa_spes-userdebug \
+    aospa_sunny-userdebug \
+    aospa_veux-userdebug \
+    aospa_vayu-userdebug
